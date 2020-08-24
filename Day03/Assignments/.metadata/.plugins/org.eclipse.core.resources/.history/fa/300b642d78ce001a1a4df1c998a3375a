@@ -1,0 +1,14 @@
+
+public class Check {
+	String s1 = "DEFAULT";
+	public String s2 = "PUBLIC";
+	protected String s3 = "PROTECTED";
+	private String s4 = "PRIVATE";
+	
+	public void Disp(Check ref) {
+		System.out.println(ref.s1);
+		System.out.println(ref.s2);
+		System.out.println(ref.s3);
+		System.out.println(ref.s4);
+	}
+}

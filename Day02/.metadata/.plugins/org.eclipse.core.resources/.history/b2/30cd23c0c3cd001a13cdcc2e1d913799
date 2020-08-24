@@ -1,0 +1,10 @@
+
+class Emp {
+	private static int cnt;
+	
+	public int GetCnt() {
+		return cnt;
+	}
+	
+
+}

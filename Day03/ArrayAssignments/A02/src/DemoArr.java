@@ -1,0 +1,22 @@
+
+public class DemoArr {
+	int a=99;
+	static int c;
+	{c++;}
+	public void disp() {
+		System.out.println("IN DISPLAY " + DemoArr.c);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DemoArr a[] = new DemoArr[4];
+	
+		
+		for(int i = 0 ; i < a.length ; i++) {
+			a[i] = new DemoArr();
+			a[i].disp();
+		}
+		
+	}
+
+}

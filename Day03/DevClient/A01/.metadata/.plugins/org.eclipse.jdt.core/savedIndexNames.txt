@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\VITA CDAC OOP\JAVA\Assignments\Day03\DevClient\A01\.metadata\.plugins\org.eclipse.jdt.core
+1592679095.index
+134849715.index

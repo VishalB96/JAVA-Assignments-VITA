@@ -1,0 +1,35 @@
+/**
+ * Show the example of single level inheritance with constructor invocation.
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+class base1 {
+	int c1;
+	base1(){
+		this.c1=39;
+		System.out.println("Default constructor of base");
+	}
+	
+	int getC1() {
+		return c1;
+	}
+	
+}
+
+class sub extends base1 {
+	int c2;
+	sub(){
+		this.c2=44;
+		System.out.println("Default constructor of sub");
+	}
+	
+}
+
+public class base{
+	public static void main(String[] args) {
+		new sub();
+	}
+} 

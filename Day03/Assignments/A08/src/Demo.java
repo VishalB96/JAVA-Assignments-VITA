@@ -1,0 +1,33 @@
+class base{
+	int n=23;
+	
+	void disp() {
+		System.out.println("disp base");
+	}
+	
+	public static void perform(base b) {
+		b.disp();
+	}
+}
+class sub extends base{
+	void disp() {
+		System.out.println("disp sub");
+	}
+}
+public class Demo {
+	public static void perform (base b) {
+		b.disp();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new sub().disp();
+		
+		new base().disp();
+		
+		perform(new sub());
+		
+		base.perform(new sub());
+		base.perform(new base());
+	}
+
+}

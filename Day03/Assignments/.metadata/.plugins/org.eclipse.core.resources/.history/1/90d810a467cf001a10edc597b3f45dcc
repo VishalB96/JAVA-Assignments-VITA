@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+public class FourWheeler implements Vehicle {
+	private static String GearType[] = {"manual","automatic"};
+	
+	public FourWheeler(String type) {
+		checkType(type);
+	}
+	
+	public int checkType(String type) {
+		String CheckA[]= FourWheeler.GearType;
+		for(int i = 0 ; i< CheckA.length; i++) {
+			System.out.println(CheckA[i]);
+		}
+		return 1;
+	}
+	@Override
+	public void start() {
+		System.out.println("Four Wheeler Start");
+
+	}
+	
+}

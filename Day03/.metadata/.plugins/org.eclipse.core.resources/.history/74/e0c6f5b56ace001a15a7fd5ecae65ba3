@@ -1,0 +1,14 @@
+
+public class DemoArr {
+	static int c;
+	{c++;}
+	public void disp() {
+		System.out.println("IN DISPLAY " + DemoArr.c);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

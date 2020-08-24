@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+public class Second {
+
+	protected int S1 =99;
+	
+	Second(){
+		System.out.println("Default constructor of SECOND");
+	}
+	
+	Second(int S1){
+		this.S1 = S1;
+		System.out.println("Parameterized constructor of SECOND");
+	}
+	
+	public int getS1() {
+		return S1;
+	}
+	
+	public void setS1( int S1) {
+		this.S1 = S1;
+	}
+	
+
+}

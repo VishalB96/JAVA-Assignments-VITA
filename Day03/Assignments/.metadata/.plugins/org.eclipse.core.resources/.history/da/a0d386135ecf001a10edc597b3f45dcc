@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+public class FourWheeler implements Vehicle {
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

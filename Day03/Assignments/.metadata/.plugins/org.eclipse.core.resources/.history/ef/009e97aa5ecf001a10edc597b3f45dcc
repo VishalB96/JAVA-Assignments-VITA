@@ -1,0 +1,10 @@
+
+public class VDemo {
+
+	public static void main(String[] args) {
+		Vehicle n1 = new TwoWheeler();
+		n1.start();
+
+	}
+
+}

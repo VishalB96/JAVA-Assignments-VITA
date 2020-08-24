@@ -1,0 +1,22 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		new A();
+		// TODO Auto-generated method stub
+		System.out.println(A.getNumA());
+		System.out.println(new A().getNumA1());
+		System.out.println(new A().numA1);
+		A a1 = new A();
+		a1.setNumA1(33);
+		System.out.println(a1.getNumA1());
+		System.out.println("*************************************88");
+		System.out.println(B.getCountB());
+		System.out.println(new B(23).getNumB());
+		System.out.println(new B().getNumB());
+		System.out.println(B.getCountB());
+		System.out.println();
+		
+	}
+
+}

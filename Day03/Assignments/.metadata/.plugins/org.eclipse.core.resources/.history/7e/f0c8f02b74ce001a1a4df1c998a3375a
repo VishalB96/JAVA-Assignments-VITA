@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+public class First {
+	int F1 = 10;
+
+	/**
+	 * 
+	 */
+	public First() {
+		super();
+	}
+
+	/**
+	 * @param f1
+	 */
+	public First(int f1) {
+		super();
+		this.F1 = f1;
+	}
+	
+}

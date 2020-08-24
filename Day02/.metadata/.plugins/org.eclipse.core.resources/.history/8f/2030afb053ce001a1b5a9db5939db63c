@@ -1,0 +1,29 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		new A();
+		// TODO Auto-generated method stub
+		System.out.println(A.getNumA());
+		System.out.println(new A().getNumA1());
+		System.out.println(new A().numA1);
+		A a1 = new A();
+		a1.setNumA1(33);
+		System.out.println(a1.getNumA1());
+		System.out.println("*************************************");
+		System.out.println(B.getCountB());
+		System.out.println(new B(23).getNumB());
+		System.out.println(new B().getNumB());
+		System.out.println(B.getCountB());
+		System.out.println("*************************************");
+		C n1 = new C();
+		System.out.println(C.countC);
+		
+		int coai[]=C.AllInstancesCounter();
+		for(int i=0;i<=coai.length;i++) {
+			System.out.println(coai[i]);
+		}
+		
+	}
+
+}

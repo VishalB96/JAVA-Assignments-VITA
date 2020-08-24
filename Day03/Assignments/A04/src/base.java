@@ -1,0 +1,45 @@
+/**
+ * Show the example of single level inheritance with constructor invocation.
+ */
+
+/**
+ * @author Vishal
+ *
+ */
+class base1 {
+	int c1;
+	static{System.out.println("static block 1 of base");}
+	{System.out.println("non static block 1 of base");}
+	base1(){
+		this.c1=39;
+		System.out.println("Default constructor of base");
+	}
+	
+	static sub a1 = new sub();
+	
+	
+	int getC1() {
+		return c1;
+	}
+	static{System.out.println("static block 2 of base");}
+	{System.out.println("non static block 2 of base");}
+}
+
+class sub extends base1 {
+	int c2;
+	{System.out.println("non static block 1 of sub");}
+	static{System.out.println("static block 1 of sub");}
+	
+	sub(){
+		this.c2=44;
+		System.out.println("Default constructor of sub");
+	}
+	static{System.out.println("static block 2 of sub");}
+	{System.out.println("non static block 2 of sub");}
+}
+
+public class base{
+	public static void main(String[] args) {
+		new sub();
+	}
+} 

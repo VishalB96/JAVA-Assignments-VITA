@@ -1,0 +1,7 @@
+
+public class Check {
+	String s1 = "DEFAULT";
+	public String s2 = "PUBLIC";
+	protected String s3 = "PROTECTED";
+	private String s4 = "PRIVATE";
+}

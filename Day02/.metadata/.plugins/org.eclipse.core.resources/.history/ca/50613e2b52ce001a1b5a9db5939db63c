@@ -1,0 +1,7 @@
+
+public class C {
+	static int countC;
+	static int instCount;
+	
+	public static int AllInstancesCounter
+}

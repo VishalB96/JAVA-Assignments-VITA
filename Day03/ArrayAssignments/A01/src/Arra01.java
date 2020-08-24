@@ -1,0 +1,24 @@
+
+public class Arra01 {
+		
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {4,99,3,42,22,9,1};
+		for(int i =0; i<arr.length;i++) {
+			for(int k = i+1;k<arr.length;k++) {
+				if(arr[i]>arr[k]) {
+					int t=arr[i];
+					arr[i]=arr[k];
+					arr[k]=t;
+					
+				}
+			}
+		}
+		
+		for(int i=0;i<arr.length;i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+}

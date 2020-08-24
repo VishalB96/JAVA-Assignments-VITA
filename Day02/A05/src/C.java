@@ -1,0 +1,16 @@
+
+public class C {
+	static int countC;
+	
+	{countC++;}
+	public static int[] AllInstancesCounter() {
+		int c=0;
+		c=C.countC+A.numA+B.getCountB();
+		int arr[] = new int[4];
+		arr[0]=C.countC;
+		arr[1]=A.numA;
+		arr[2]=B.getCountB();
+		arr[3]=c;
+		return arr;
+	}
+}

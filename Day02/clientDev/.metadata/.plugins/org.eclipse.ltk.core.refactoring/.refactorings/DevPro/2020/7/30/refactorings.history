@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;pack1.Second.w2&apos; in &apos;pack1.Second&apos;&#x0D;&#x0A;- Original project: &apos;DevPro&apos;&#x0D;&#x0A;- Original element: &apos;pack1.Second.w2&apos;&#x0D;&#x0A;- Getter method name: &apos;getW2&apos;&#x0D;&#x0A;- Setter method name: &apos;setW2&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;w2&apos;" flags="589830" getter="getW2" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;pack1{Second.java[Second^w2" insertion="1" setter="setW2" stamp="1595603283514" version="1.0" visibility="1"/>
+</session>
